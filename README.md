@@ -11,22 +11,22 @@ B)	Feature_intensityvalues.py : Extraction grayscale intensity values for the CI
 
 3)	Main Code
 A)LapRLS
-   	Singleclass_Singleview_permutations_S.py : Implements a supervised classifier for binary classification single-view case.
-   	Singleclass_Singleview_permutations_SS.py : Implements a Semi-supervised classifier for binary classification single-view case.
-   	Singleclass_Multiview_permutations_S.py : Implements a supervised classifier for binary classification multi-view case.
-   	Singleclass_Multiview_permutations_SS.py : Implements a Semi-supervised classifier for binary classification multi-view case.
-   	Multiclass_Singleview_permutations_S.py : Implements a supervised classifier for multi class and single-view case.
-   	Multiclass_Singleview_permutations_SS.py : Implements a Semi-supervised classifier for multi class and single-view case.
-   	Multiclass_Multiview_permutations_S.py : Implements a supervised classifier for multi class and Multi-view case.
-   	Multiclass_Multiview_permutations_SS.py : Implements a Semi-supervised classifier for multi class and Multi-view case.
+   1)	Singleclass_Singleview_permutations_S.py : Implements a supervised classifier for binary classification single-view case.
+   2) Singleclass_Singleview_permutations_SS.py : Implements a Semi-supervised classifier for binary classification single-view case.
+   3)	Singleclass_Multiview_permutations_S.py : Implements a supervised classifier for binary classification multi-view case.
+   4)	Singleclass_Multiview_permutations_SS.py : Implements a Semi-supervised classifier for binary classification multi-view case.
+   5)	Multiclass_Singleview_permutations_S.py : Implements a supervised classifier for multi class and single-view case.
+   6)	Multiclass_Singleview_permutations_SS.py : Implements a Semi-supervised classifier for multi class and single-view case.
+   7)	Multiclass_Multiview_permutations_S.py : Implements a supervised classifier for multi class and Multi-view case.
+   8)	Multiclass_Multiview_permutations_SS.py : Implements a Semi-supervised classifier for multi class and Multi-view case.
 The codes were run on Anaconda (Spyder) – Python 2.7.
 
 
 B)	LapSVM
-   	Laplacian Support Vector Machine Single-view single class – LAPSVM_SV_SC_SS.py
-   	Laplacian Support Vector Machine Single-view multi-class – LAPSVM_SV_MC_SS.py
-   	Laplacian Support Vector Machine Multi-view single class -  LAPSVM_MV_SC_SS.py
-   	Laplacian Support Vector Machine Multi-view multi-class – LAPSVM_MV_MC_SS.py
+   1)	Laplacian Support Vector Machine Single-view single class – LAPSVM_SV_SC_SS.py
+   2)	Laplacian Support Vector Machine Single-view multi-class – LAPSVM_SV_MC_SS.py
+   3)	Laplacian Support Vector Machine Multi-view single class -  LAPSVM_MV_SC_SS.py
+   4)	Laplacian Support Vector Machine Multi-view multi-class – LAPSVM_MV_MC_SS.py
 For supervised learning set the gamma_I (gamma_I1, gamma_I2) parameters in all the scripts as zero
 Python version 3.6 is used for implementing and running all the scripts. 
 Install CVXOPT V 1.1.9 library that is compatible with the system and python version used for running the scripts.

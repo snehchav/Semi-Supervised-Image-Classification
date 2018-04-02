@@ -12,10 +12,10 @@ def grad(alpha,K,Y,L,J,l,u,gamma_I,gamma_A):
     return(d)
 
 ## Load Data
-mat1 = sio.loadmat('C:\Users\sandippk\Desktop\Machine Learning\Fifth Feature\X_train.mat')
-mat2 = sio.loadmat('C:\Users\sandippk\Desktop\Machine Learning\Fifth Feature\Y_train.mat')
-mat3 = sio.loadmat('C:\Users\sandippk\Desktop\Machine Learning\Fifth Feature\X_test.mat')
-mat4 = sio.loadmat('C:\Users\sandippk\Desktop\Machine Learning\Fifth Feature\Y_test.mat')
+mat1 = sio.loadmat('C:\Users\snehchav\Desktop\Machine Learning\Fifth Feature\X_train.mat')
+mat2 = sio.loadmat('C:\Users\snehchav\Desktop\Machine Learning\Fifth Feature\Y_train.mat')
+mat3 = sio.loadmat('C:\Users\snehchav\Desktop\Machine Learning\Fifth Feature\X_test.mat')
+mat4 = sio.loadmat('C:\Users\snehchav\Desktop\Machine Learning\Fifth Feature\Y_test.mat')
 X1=np.asmatrix(mat1['X_final'])
 Y_trncomplte=np.asmatrix(mat2['Y_final'])
 X_test=np.asmatrix(mat3['X_test'])

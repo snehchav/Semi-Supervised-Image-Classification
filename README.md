@@ -10,6 +10,7 @@ A)	Feature_HOG.py : Extracts HOG feature descriptors for the CIFAR dataset
 B)	Feature_intensityvalues.py : Extraction grayscale intensity values for the CIFAR dataset
 
 3)	Main Code
+
 A)LapRLS
    1)	Singleclass_Singleview_permutations_S.py : Implements a supervised classifier for binary classification single-view case.
    2) Singleclass_Singleview_permutations_SS.py : Implements a Semi-supervised classifier for binary classification single-view case.
